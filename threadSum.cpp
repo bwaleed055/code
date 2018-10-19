@@ -18,8 +18,8 @@ void *Sum(void *arg)
 }
 
 int main(){
-    int sum=0;
-    pthread_t thread[10],status[10];
+    int sum=0,status[10];
+    pthread_t thread[10];
     
     for(int i=0; i<1000; i++)
     {
